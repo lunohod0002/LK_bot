@@ -1,2 +1,3 @@
-token="5956975897:AAG9deyfFYO03yv8eWqrW9wubdWJdKLAE9E"
-admin_id=153559013
+import os
+token=os.getenv("token")
+admin_id=os.getenv("admin_id")
